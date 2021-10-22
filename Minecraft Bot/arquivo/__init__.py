@@ -7,6 +7,7 @@ def arquivoExiste(nome):
     else:
         return True
 
+
 def criarArquivo(nome):
     try:
         a = open(nome, 'wt+')
@@ -15,6 +16,7 @@ def criarArquivo(nome):
         print('\033[31mHouve um erro na criação do arquivo!\033[m')
     else:
         print('Arquivo criado com sucesso')
+
 
 def lerArquivo(nome):
     try:
@@ -31,6 +33,7 @@ def lerArquivo(nome):
     finally:
         a.close()
 
+
 def cadastrar(arquivo, nome, link, ip, porta, version):
     try:
         a = open(arquivo, 'at')
@@ -46,6 +49,7 @@ def cadastrar(arquivo, nome, link, ip, porta, version):
     finally:
         a.close()
 
+
 def cadastrarMod(arquivo, mod):
     try:
         a = open(arquivo, 'at')
@@ -58,5 +62,21 @@ def cadastrarMod(arquivo, mod):
             print('\033[31mOcorreu um erro ao tentar cadastrar o usuário!\033[m')
         else:
             print(f'cadastrado com sucesso!')
+    finally:
+        a.close()
+
+
+def escrever(arquivo, texto):
+    try:
+        a = open(arquivo, 'at')
+    except:
+        print('\033[31mOcorreu um ao o tentar escrever no arquivo!\033[m')
+    else:
+        try:
+            a.write(f'{texto}')
+        except:
+            print('\033[31mOcorreu um erro ao tentar escrever no arquivo!\033[m')
+        else:
+            print(f'escrito com sucesso!')
     finally:
         a.close()
