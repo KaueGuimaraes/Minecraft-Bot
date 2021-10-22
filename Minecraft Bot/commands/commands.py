@@ -113,6 +113,35 @@ class Commands(commands.Cog):
         embed.set_thumbnail(url = 'https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/b7/Crafting_Table_JE4_BE3.png/revision/latest?cb=20191229083528')
 
         await ctx.channel.send(embed = embed)
+    
+    @commands.command(name = 'players', help = 'Mostra todos players registrados')
+    async def players(self, ctx):
+        if arquivoExiste('players.txt'):
+            msg = lerArquivo('players.txt')
+
+            embed = discord.Embed(
+                title = 'Players',
+                description = msg,
+                colour = 11598249
+            )
+
+            embed.set_author(name = 'Minecraft Bot', icon_url = 'https://cdn.discordapp.com/avatars/900889967604158464/eda53038817044cf685215dde7cdff30.png?size=160')
+            embed.set_thumbnail(url = 'https://i.pinimg.com/564x/fa/9b/60/fa9b6028ba671d619781059653299849.jpg')
+
+            await ctx.channel.send(embed = embed)
+        else:
+            criarArquivo('players.txt')
+            await ctx.channel.send('Tente novamente.')
+    
+    @commands.command(name = 'addPlayer', help = 'Adiciona um jogador a lista de jogadores')
+    async def add_player(self, ctx, player, nick):
+        try: #Tenta
+            escrever('players.txt', f'{player} **{nick}**\n') #Adicionar player
+        except: #Se não conseguir
+            await ctx.channel.send('Não foi possível adicionar o jogador.') #Informa
+        else: #Se conseguir
+            await ctx.channel.send('Player adicionado com sucesso.') #Informa
+
 
     @commands.command(name = 'addCraft', help = 'Adiciona um craft a lista de crafts')
     async def add_craft(self, ctx, *craft):
@@ -158,6 +187,10 @@ class Commands(commands.Cog):
     @commands.command(name = 'remove')
     async def remove(self, ctx):
         await ctx.channel.send('Somente o meu criador pode remover um servidor.')
+    
+    @commands.command(name = 'removeCraft')
+    async def remove_craft(self, ctx):
+        await ctx.channel.send('Somente o meu criador pode remover um craft.')
         
 
 
