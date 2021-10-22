@@ -1,39 +1,57 @@
-vela=https://media.discordapp.net/attachments/896905604902314004/901017806949212180/unknown.png
-power core=https://media.discordapp.net/attachments/896905604902314004/901018281626980352/unknown.png
-water wheel=https://media.discordapp.net/attachments/896905604902314004/901018602134720522/unknown.png
-chunk loader=https://media.discordapp.net/attachments/896905604902314004/901019058823114752/unknown.png
-matter converter=https://media.discordapp.net/attachments/896905604902314004/901019199357472778/unknown.png
-passiver spawner=https://media.discordapp.net/attachments/896905604902314004/901019341993177088/unknown.png
-crusher=https://media.discordapp.net/attachments/896905604902314004/901019519340929056/unknown.png
-block breaker=https://media.discordapp.net/attachments/896905604902314004/901019628246016020/unknown.png
-auto sieve=https://media.discordapp.net/attachments/896905604902314004/901019880218832906/unknown.png
-cobblestone generator=https://media.discordapp.net/attachments/896905604902314004/901020017980768326/unknown.png
-sieve=https://media.discordapp.net/attachments/896905604902314004/901020118061047848/unknown.png
-void miner=https://media.discordapp.net/attachments/896905604902314004/901020247266590780/unknown.png
-auto farmer=https://media.discordapp.net/attachments/896905604902314004/901020337259577394/unknown.png
-chopper=https://media.discordapp.net/attachments/896905604902314004/901020500397006918/unknown.png
-stone barrel=https://media.discordapp.net/attachments/896905604902314004/901020629451550770/unknown.png
-mechanical furnace=https://media.discordapp.net/attachments/896905604902314004/901020718802796604/unknown.png
-fisher=https://media.discordapp.net/attachments/896905604902314004/901020865234366464/unknown.png
-vaccum hopper=https://media.discordapp.net/attachments/896905604902314004/901020976375037963/unknown.png
-storage unit=https://media.discordapp.net/attachments/896905604902314004/901021095686193182/unknown.png
-cobblestone sapling=https://media.discordapp.net/attachments/896905604902314004/901021226053558292/unknown.png
-iron sapling=https://media.discordapp.net/attachments/896905604902314004/901021333956222986/unknown.png
-gold sapling=https://media.discordapp.net/attachments/896905604902314004/901021432941785098/unknown.png
-tier3 solar generator=https://media.discordapp.net/attachments/896905604902314004/901021510733537290/unknown.png
-solar generator=https://media.discordapp.net/attachments/896905604902314004/901021692783128606/unknown.png
-advanced solar generator=https://media.discordapp.net/attachments/896905604902314004/901021829529997372/unknown.png
-tier5 solar generator=https://media.discordapp.net/attachments/896905604902314004/901021936988090408/unknown.png
-tier4 solar generator=https://media.discordapp.net/attachments/896905604902314004/901022078721982534/unknown.png
-nether star generator=https://media.discordapp.net/attachments/896905604902314004/901022210754490388/unknown.png
-grappling gun=https://media.discordapp.net/attachments/896905604902314004/901022314605465631/unknown.png
-tnt gun=https://media.discordapp.net/attachments/896905604902314004/901022421203697724/unknown.png
-portal gun=https://media.discordapp.net/attachments/896905604902314004/901022523850883102/unknown.png
-ray gun=https://media.discordapp.net/attachments/896905604902314004/901022623696302080/unknown.png
-freeze ray=https://media.discordapp.net/attachments/896905604902314004/901022719913656322/unknown.png
-flamethrower=https://media.discordapp.net/attachments/896905604902314004/901022801249599508/unknown.png
-nail gun=https://media.discordapp.net/attachments/896905604902314004/901022896909074432/unknown.png
-mining gun=https://media.discordapp.net/attachments/896905604902314004/901022982544187432/unknown.png
-gravity gun=https://media.discordapp.net/attachments/896905604902314004/901023090048389130/unknown.png
-spikes=https://media.discordapp.net/attachments/896905604902314004/901023185376534578/unknown.png
-plant forge=https://media.discordapp.net/attachments/896905604902314004/901023286836752434/unknown.png
+vela===https://media.discordapp.net/attachments/896905604902314004/901017806949212180/unknown.png===<@!501173283245522946>===
+power core===https://media.discordapp.net/attachments/896905604902314004/901018281626980352/unknown.png===<@!501173283245522946>===
+water wheel===https://media.discordapp.net/attachments/896905604902314004/901018602134720522/unknown.png===<@!501173283245522946>===
+chunk loader===https://media.discordapp.net/attachments/896905604902314004/901019058823114752/unknown.png===<@!501173283245522946>===
+matter converter===https://media.discordapp.net/attachments/896905604902314004/901019199357472778/unknown.png===<@!501173283245522946>===
+passiver spawner===https://media.discordapp.net/attachments/896905604902314004/901019341993177088/unknown.png===<@!501173283245522946>===
+crusher===https://media.discordapp.net/attachments/896905604902314004/901019519340929056/unknown.png===<@!501173283245522946>===
+block breaker===https://media.discordapp.net/attachments/896905604902314004/901019628246016020/unknown.png===<@!501173283245522946>===
+auto sieve===https://media.discordapp.net/attachments/896905604902314004/901019880218832906/unknown.png===<@!501173283245522946>===
+cobblestone generator===https://media.discordapp.net/attachments/896905604902314004/901020017980768326/unknown.png===<@!501173283245522946>===
+sieve===https://media.discordapp.net/attachments/896905604902314004/901020118061047848/unknown.png===<@!501173283245522946>===
+void miner===https://media.discordapp.net/attachments/896905604902314004/901020247266590780/unknown.png===<@!501173283245522946>===
+auto farmer===https://media.discordapp.net/attachments/896905604902314004/901020337259577394/unknown.png===<@!501173283245522946>===
+chopper===https://media.discordapp.net/attachments/896905604902314004/901020500397006918/unknown.png===<@!501173283245522946>===
+stone barrel===https://media.discordapp.net/attachments/896905604902314004/901020629451550770/unknown.png===<@!501173283245522946>===
+mechanical furnace===https://media.discordapp.net/attachments/896905604902314004/901020718802796604/unknown.png===<@!501173283245522946>===
+fisher===https://media.discordapp.net/attachments/896905604902314004/901020865234366464/unknown.png===<@!501173283245522946>===
+vaccum hopper===https://media.discordapp.net/attachments/896905604902314004/901020976375037963/unknown.png===<@!501173283245522946>===
+storage unit===https://media.discordapp.net/attachments/896905604902314004/901021095686193182/unknown.png===<@!501173283245522946>===
+cobblestone sapling===https://media.discordapp.net/attachments/896905604902314004/901021226053558292/unknown.png===<@!501173283245522946>===
+iron sapling===https://media.discordapp.net/attachments/896905604902314004/901021333956222986/unknown.png===<@!501173283245522946>===
+gold sapling===https://media.discordapp.net/attachments/896905604902314004/901021432941785098/unknown.png===<@!501173283245522946>===
+tier3 solar generator===https://media.discordapp.net/attachments/896905604902314004/901021510733537290/unknown.png===<@!501173283245522946>===
+solar generator===https://media.discordapp.net/attachments/896905604902314004/901021692783128606/unknown.png===<@!501173283245522946>===
+advanced solar generator===https://media.discordapp.net/attachments/896905604902314004/901021829529997372/unknown.png===<@!501173283245522946>===
+tier5 solar generator===https://media.discordapp.net/attachments/896905604902314004/901021936988090408/unknown.png===<@!501173283245522946>===
+tier4 solar generator===https://media.discordapp.net/attachments/896905604902314004/901022078721982534/unknown.png===<@!501173283245522946>===
+nether star generator===https://media.discordapp.net/attachments/896905604902314004/901022210754490388/unknown.png===<@!501173283245522946>===
+grappling gun===https://media.discordapp.net/attachments/896905604902314004/901022314605465631/unknown.png===<@!501173283245522946>===
+tnt gun===https://media.discordapp.net/attachments/896905604902314004/901022421203697724/unknown.png===<@!501173283245522946>===
+portal gun===https://media.discordapp.net/attachments/896905604902314004/901022523850883102/unknown.png===<@!501173283245522946>===
+ray gun===https://media.discordapp.net/attachments/896905604902314004/901022623696302080/unknown.png===<@!501173283245522946>===
+freeze ray===https://media.discordapp.net/attachments/896905604902314004/901022719913656322/unknown.png===<@!501173283245522946>===
+flamethrower===https://media.discordapp.net/attachments/896905604902314004/901022801249599508/unknown.png===<@!501173283245522946>===
+nail gun===https://media.discordapp.net/attachments/896905604902314004/901022896909074432/unknown.png===<@!501173283245522946>===
+mining gun===https://media.discordapp.net/attachments/896905604902314004/901022982544187432/unknown.png===<@!501173283245522946>===
+gravity gun===https://media.discordapp.net/attachments/896905604902314004/901023090048389130/unknown.png===<@!501173283245522946>===
+spikes===https://media.discordapp.net/attachments/896905604902314004/901023185376534578/unknown.png===<@!501173283245522946>===
+plant forge===https://media.discordapp.net/attachments/896905604902314004/901023286836752434/unknown.png===<@!501173283245522946>===
+netherita===https://media.discordapp.net/attachments/896905604902314004/901228821393580032/unknown.png===<@!877755588719808522>===
+itens de netherita===https://media.discordapp.net/attachments/896905604902314004/901234172834766858/hqdefault.jpg===<@!877755588719808522>===
+scrap de netherita===https://media.discordapp.net/attachments/896905604902314004/901234480491143208/make_netherite_scrap.png===<@!877755588719808522>===
+mesa de encantamento===https://media.discordapp.net/attachments/896905604902314004/901234636108206150/minecraft-mesa-encantamento-receita02.png===<@!877755588719808522>===
+mesa de ferraria===https://media.discordapp.net/attachments/896905604902314004/901234780027387924/1619105706_62_Como-fazer-uma-mesa-de-ferreiro-no-Minecraft-e-para.jpg===<@!877755588719808522>===
+bolo===https://media.discordapp.net/attachments/896905604902314004/901235129865883748/bolo1.jpg===<@!877755588719808522>===
+olho do fim===https://media.discordapp.net/attachments/896905604902314004/901235260497473546/olho_de_ender.jpg===<@!877755588719808522>===
+espada===https://media.discordapp.net/attachments/896905604902314004/901235666971672686/swords-recipe.gif===<@!877755588719808522>===
+picareta===https://media.discordapp.net/attachments/896905604902314004/901235812115554314/picareta.gif===<@!877755588719808522>===
+flecha com efeito===https://media.discordapp.net/attachments/896905604902314004/901239794833690674/19713459_5jmuI.jpeg===<@!877755588719808522>===
+arco===https://media.discordapp.net/attachments/896905604902314004/901239783433588757/arco-minecraft.jpg===<@!877755588719808522>===
+flecha espectral===https://media.discordapp.net/attachments/896905604902314004/901239773002350602/flecha-espectral-minecraft.jpg===<@!877755588719808522>===
+flecha===https://media.discordapp.net/attachments/896905604902314004/901239758892707910/b591708d73cabae3c9f560678b978452--minecraft-games-mel.jpg===<@!877755588719808522>===
+teste===2===<@!501173283245522946>===o 
+teste 2===3===<@!501173283245522946>===43 3 
+teste 3===3===<@!501173283245522946>===
+bau do fim===https://media.discordapp.net/attachments/896905604902314004/901243578741837854/bau_do_fim2.jpg===<@!877755588719808522>===
+sopa===https://media.discordapp.net/attachments/896905604902314004/901246394663313500/Crafting-Mushroom-Stew.png===<@!877755588719808522>===sopa eh sopa, tambem consegue ordenhando uma vaca cogumelo 
