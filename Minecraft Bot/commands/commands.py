@@ -12,10 +12,10 @@ class Commands(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
     
-    @commands.command(name = 'botInfo', help = 'Mostra informações do Bot como criador e etc.')
+    @commands.command(name = 'info', help = 'Mostra minhas informações. !info')
     async def info(self, ctx):
         embed = discord.Embed(
-            description = 'Bot código aberto criado pelo usuário Kauê Guimarães Programador#7894\n\nhttps://github.com/KaueGuimaraes/Minecraft-Bot',
+            description = 'Bot código aberto criado por Kauê Guimarães com a sua primeira versão sendo disponibilizada em 21/10/2021\n\nhttps://github.com/KaueGuimaraes/Minecraft-Bot',
             colour = colour
         )
 
@@ -24,7 +24,7 @@ class Commands(commands.Cog):
 
         await ctx.channel.send(embed = embed)
     
-    @commands.command(name = 'guia', help = 'Mostra todos os objetivos do mundo Stone Block')
+    @commands.command(name = 'guia', help = 'Mostra todos os objetivos do modpack Stone Block. !guia')
     async def objetivos(self, ctx):
         if arquivoExiste('objetivos.txt'):
             msg = lerArquivo('objetivos.txt')
@@ -43,7 +43,7 @@ class Commands(commands.Cog):
             criarArquivo('objetivos.txt')
             await ctx.channel.send('Tente novamente.')
     
-    @commands.command(name = 'report', help = 'Envie uma mensagem privada para meu criador')
+    @commands.command(name = 'report', help = 'Envia uma mensagem privada para o desenvolvedor. Podendo ser utilizado tanto para enviar um feedback, reportar um errro ou só enviar algo para o desenvolvedor ler mesmo. !report <mensagem>')
     async def report(self, ctx, *report):
         msg = ''
         for c in report: #Para cada coisa no elemento report

@@ -12,7 +12,7 @@ class Profiles(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
     
-    @commands.command(name = 'perfil', help = 'Mostra o perfil de um usuário')
+    @commands.command(name = 'perfil', help = '(BETA) Mostra o perfil do usuário. !perfil')
     async def profile(self, ctx):
         name = ctx.author.name
         embed = discord.Embed(
@@ -23,7 +23,7 @@ class Profiles(commands.Cog):
 
         await ctx.channel.send(embed = embed)
 
-    @commands.command(name = 'players', help = 'Mostra todos players registrados')
+    @commands.command(name = 'players', help = 'Mostra todos os jogadores registrados. !players')
     async def players(self, ctx):
         if arquivoExiste('players.txt'):
             msg = lerArquivo('players.txt')
@@ -42,7 +42,7 @@ class Profiles(commands.Cog):
             criarArquivo('players.txt')
             await ctx.channel.send('Tente novamente.')
     
-    @commands.command(name = 'addPlayer', help = 'Adiciona um jogador a lista de jogadores')
+    @commands.command(name = 'addPlayer', help = 'Adiciona um jogador a lista de jogadores. !addPlayers <nome no minecraft> <menção no discord>')
     async def add_player(self, ctx, player, nick):
         try: #Tenta
             escrever('players.txt', f'{player} **{nick}**\n') #Adicionar player

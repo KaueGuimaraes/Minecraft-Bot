@@ -12,7 +12,7 @@ class Figurinhas(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
     
-    @commands.command(name = 'fs', help = 'Mostra todas as figurinhas adicionadas')
+    @commands.command(name = 'fs', help = 'Mostra todas as figurinhas adicionadas. !fs')
     async def figurinhas(self, ctx):
         figurinhas = lerArquivo('figurinhas.txt') #Lê o arquivo figurinhas.txt
 
@@ -33,7 +33,7 @@ class Figurinhas(commands.Cog):
 
         await ctx.channel.send(embed = embed)
     
-    @commands.command(name = 'f', help = 'Usa alguma figurinha')
+    @commands.command(name = 'f', help = 'Usa alguma figurinha. !f <figurinha>')
     async def figurinha(self, ctx, *figurinha):
         msg = ''
         for c in figurinha: #Junta os caractéres separados do elemento figurinha
@@ -50,7 +50,7 @@ class Figurinhas(commands.Cog):
         
         await ctx.channel.send(f'{image}') #Mensagem que informa quem usou o emoji **{ctx.author.name}** usou {name}\n
     
-    @commands.command(name = 'addFigurinha', help = 'Adiciona uma figurinha')
+    @commands.command(name = 'addFigurinha', help = 'Adiciona uma figurinha. !addFigurinha <nome>=<imagem url>')
     async def add_figurinha(self, ctx, *figurinha):
         msg = ''
         for c in figurinha: #Junta os caractéres separados do elemento figurinha
@@ -60,7 +60,7 @@ class Figurinhas(commands.Cog):
         autor_mention = f'<@!{ctx.author.id}>'
         
         try: #Vou tentar escrever a nova figurinha
-            escrever('figurinhas.txt', f'\n{msg[0].lower().strip()}==={msg[1].strip()}==={msg[3].strip()}')
+            escrever('figurinhas.txt', f'\n{msg[0].lower().strip()}==={msg[1].strip()}==={autor_mention}')
         except: #Se eu não conseguir
             await ctx.channel.send('Não foi possível adicionar a sua figurinha')
         else: #Mas se eu conseguir

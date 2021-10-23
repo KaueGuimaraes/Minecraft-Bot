@@ -12,7 +12,7 @@ class Servers(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
     
-    @commands.command(name = 'servers', help = 'Mostra os servidores disponíveis.')
+    @commands.command(name = 'servers', help = 'Mostra os servidores disponíveis. !servers')
     async def servers(self, ctx):
         embed = discord.Embed(
             title = 'Minecraft Worlds',
@@ -27,7 +27,7 @@ class Servers(commands.Cog):
 
         await ctx.channel.send(embed = embed)
     
-    @commands.command(name = 'add', help = 'Adiciona um server a lista de servidores.')
+    @commands.command(name = 'add', help = 'Adiciona um servidor a lista de servidores. !add <nome> <link> <ip> <porta> <versão>')
     async def add(self, ctx, nome, link, ip, porta, version):
         if arquivoExiste('servers.txt'):
             try:

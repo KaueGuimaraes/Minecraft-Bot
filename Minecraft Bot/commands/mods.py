@@ -12,7 +12,7 @@ class Mods(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @commands.command(name = 'mods', help = 'Mostra os Mods ativos em um servidor.')
+    @commands.command(name = 'mods', help = 'Mostra os Mods adicionado. !mods')
     async def mods(self, ctx):
         embed = discord.Embed(
             title = 'Minecraft Mods',
@@ -25,7 +25,7 @@ class Mods(commands.Cog):
 
         await ctx.channel.send(embed = embed)
     
-    @commands.command(name = 'addMod', help = 'Adiciona um mod a lista de mods.')
+    @commands.command(name = 'addMod', help = 'Adiciona um mod a lista de mods. !addMod <mod>')
     async def add_mod(self, ctx, *mod):
         msg = ''
         for c in mod: #Junta os caractéres separados do elemento mod

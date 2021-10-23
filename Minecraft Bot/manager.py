@@ -5,13 +5,7 @@ from discord.ext.commands.errors import MissingRequiredArgument, CommandNotFound
 
 from random import randint
 
-
-auto_delete_words = ['fdp', 'filho da puta', 'boquete', 'puta que paril', 'pqp',
-                    'punheta', 'xoxota', 'siririca', 'bicha']
-auto_delete_phrases = ['Por favor. [name] não ofenda os demais usuários',
-                        'Manere no palavreado [name]',
-                        '[name] cuidado com o que diz...',
-                        'Não seja ofensivo [name]']
+from arquivo import *
 
 
 class Manager(commands.Cog):
@@ -26,13 +20,19 @@ class Manager(commands.Cog):
     @commands.Cog.listener()
     async def on_message(self, message):
         name = message.author.name
-        if message.author == self.bot.user:
-            return
+        if message.author == self.bot.user: #Se o autor for um bot
+            return #Vou ignora-lo
         
-        if message.content in auto_delete_words:
-            await message.channel.send(auto_delete_phrases[0].replace('[name]', f'**{name}**'))
+        auto_delete_phrases = lerArquivo('auto_delete_phrases.txt').split('\n') #Leio as frases para usar quando deletar uma mensagem
+        auto_delete_words = lerArquivo('auto_delete_words.txt').split('\n') #Leio as palavras banidas
 
-            await message.delete()
+        for word in auto_delete_words: #Para cada palavra nas palavras banidas
+            if word in message.content.lower(): #Se a palavra banida estiver na mensagem do usuário
+                num = randint(0, len(auto_delete_phrases)) #irei pegar uma frase aleatória da lista auto_delete_phrases
+
+                await message.channel.send(auto_delete_phrases[num].replace('[name]', f'**{name}**')) #Irei avisa-lo para não usar esse tipo de palavreado
+
+                await message.delete() #E deletarei a mensagem ofensiva do mesmo
     
     @commands.Cog.listener()
     async def on_command_error(self, ctx, error):

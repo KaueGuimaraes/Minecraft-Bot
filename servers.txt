@@ -1,0 +1,11 @@
+**MundoPikaDasCaverna**
+Link: https://add.aternos.org/MundoPikaDasCaverna
+IP: MundoPikaDasCaverna.aternos.me
+Porta: 34091
+Version: 1.17.11.01
+
+**Sora14**
+Link: https://add.aternos.org/ySora14
+IP: ySora14.aternos.me
+Porta: 31142
+Version: 1.17.11.01

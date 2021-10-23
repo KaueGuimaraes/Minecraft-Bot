@@ -12,7 +12,7 @@ class Crafts(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
     
-    @commands.command(name = 'crafts', help = 'Mostra todos os crafts adicionados')
+    @commands.command(name = 'crafts', help = 'Mostra crafts adicionados. !crafts')
     async def crafts(self, ctx):
         crafts = lerArquivo('crafts.txt') #Lê o arquivo crafts.txt
 
@@ -33,7 +33,7 @@ class Crafts(commands.Cog):
 
         await ctx.channel.send(embed = embed)
 
-    @commands.command(name = 'craft', help = 'Mostra craft de itens')
+    @commands.command(name = 'craft', help = 'Mostra como crafitar um item. !craft <item>')
     async def craft(self, ctx, *craft):
         msg = ''
         for c in craft: #Junta os caractéres separados do elemento craft
@@ -60,7 +60,7 @@ class Crafts(commands.Cog):
 
         await ctx.channel.send(embed = embed)
     
-    @commands.command(name = 'addCraft', help = 'Adiciona um craft a lista de crafts')
+    @commands.command(name = 'addCraft', help = 'Adiciona um craft a lista de crafts. !addCraft <nome>$<imagem url> ou !addCraft <nome>$<imagem url>$<descrição>')
     async def add_craft(self, ctx, *craft):
         msg = ''
         for c in craft: #Junta os caractéres separados do elemento craft
