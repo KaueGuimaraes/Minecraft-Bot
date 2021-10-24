@@ -1,1 +1,99 @@
-Objetivo 1 - Teste
+Objetivo 1: Crafite um crook para obter folhas de uma muda
+
+Objetivo 2: Colete terra de 9 folhas (ou peneirando cascalho)
+
+Objetivo 3: Faca um martelo e use-o para quebrar pedra e coletar cascalho
+
+Objetivo 4: Peneire o cascalho para conseguir recursos
+
+Objetivo 5: Faca uma pequena mob farm para começar a coletar loots de mobs
+
+Objetivo 6: Faca um power core, ele ira armazenar energia que podera ser usada ate 30 blocos de onde o power core estiver
+
+Objetivo 7: Faca um combustion generator ou um lava generator para conseguir gerar energia
+
+Objetivo 8: Comece a plantar sementes para conseguir alimentos
+
+Objetivo 9: Faca um wooden barrel e coloque folhas nele para gerar agua
+
+Objetivo 10: Coloque pedra em um stone barrel para gerar lava
+
+Objetivo 11: Faca um cobblestone generator e coloque-o dentre 30 blocos de distancia do power core para fazer pedra
+
+Objetivo 12: Coloque um funil em cima do cobblestone generator para coletar cobblestone automaticamente
+
+Objetivo 13: Faca um solar panels ou um water wheel para começar a gerar energia passivamente
+
+Objetivo 14: Faca spikes e coloque-os na sua farm mob, use funis ou carrinhos com funis para coletar os drops dos mobs
+
+Objetivo 15: Faca uma regiao com terra para animais
+
+Objetivo 16: Faca um crusher para transformar cobblestone em cascalho automaticamente, use conveyors para mover a pedra para o crusher
+
+Objetivo 17: Faca uma auto sieve para conseguir peneirar mais facilmente
+
+Objetivo 18: Atualize a sua geracao de energia ate ele gerar pelo menos 200 RF / s
+
+Objetivo 19: Faca um void miner para coletar minerios do void
+
+Objetivo 20: Faca uma mechanical furnace para transformar os blocos de minerios em mineros automaticamente
+
+Objetivo 21: Faca um auto farmer para automatizar a sua fazenda
+
+Objetivo 22: Faca uma plant forge para fazer tipos variados de sementes
+
+Objetivo 23: Use um drying rack para conseguir couro usando carne podre
+
+Objetivo 24: Faca uma mesa de encantamento
+
+Objetivo 25: Faca uma salvage table e uma create table, esses itens irao permitir que você faca trocas por outros itens
+
+Objetivo 26: Consiga um full set de armadura de diamante encantado
+
+Objetivo 27: Use um matter converter parar converter areia em areia da alma
+
+Objetivo 28: Peneire areias da alma para conseguir ender pearls e varas de blaze
+
+Objetivo 29: Crie uma empty ring e combine-a com uma pocao para fazer potion ring
+
+Objetivo 30: Faca um end cake e derrote o ender dragon
+
+Objetivo 31: Pegue a cabeca e o ovo do dragao
+
+Objetivo 32: Faca um dragon egg generator e coloquei o ovo do dragao em cima dele
+
+Objetivo 33: Atualize a sua geracao de energia ate gerar no mínimo 200 RF / s
+
+Objetivo 34: Va para o end e colete draconium ingots de end ores
+
+Objetivo 35: Faca um draconic ifuser e drope um draconium ingots nele isso quando voce tiver armazenado 100,000 RF
+
+Objetivo 36: Faca um exoskeleton usando draconium ingots
+
+Objetivo 37: Coloque seus exoskeleton em e fique em cima do draconic infuser parar cobrar isso, faca um draconium battery para checar seu exoskeleton power
+
+Objetivo 38: Mate alguns robos no end e use as scrap parts para fazer um novo torso, arm, e leg(peitoral, braço e perna)
+
+Objetivo 39: Faca um power charm, isso dara a voce um monte de efeitos isso junta com outras partes de android, exoskeletons, e baubles
+
+Objetivo 40: Faca um overenchantment table e comece a fazer alguns encantamentos customizados
+
+Objetivo 41: Use cristais do fim para reviver o ender dragon e coletar outra cabeca de dragao
+
+Objetivo 42: Faca um draconiumcannon ou um awakened draconium cannon, isso ira usar o poder dos seus exoskeleton para atirar explosive projectiles
+
+Objetivo 43: Faca um set de armadura full encantado de netherite
+
+Objetivo 44: Invoque e mate o wither
+
+Objetivo 45: Faca um lucky block usando 8 ouros e abra-o (o lucky block nao aparece na craft in table)
+
+Objetivo 46: Faca um fisher e coloque-o na agua para pescar peixes automaticamente
+
+Objetivo 47: Faca um storage unit e use conveyors para colocar itens nele, os itens sao coletados e guardados no power core
+
+Objetivo 48: Faca um passive hostile, ou nether spawner e faca uma farm de mob automatica
+
+Objetivo 49: Faca um copper e coloque-o em baixo de um bloco de terra com uma arvore em cima cara cortar a arvore automaticamente
+
+Objetivo 50: Explore o as ilhas do end e consiga 4 elytras para crafiar um angel charm

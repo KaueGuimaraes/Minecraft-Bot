@@ -14,9 +14,21 @@ class Mods(commands.Cog):
 
     @commands.command(name = 'mods', help = 'Mostra os Mods adicionado. !mods')
     async def mods(self, ctx):
+        mods = lerArquivo('mods.txt')
+        mods = mods.split('\n')
+        
+        description = ''
+        cont = 1
+        for c in mods:
+            if c == '':
+                continue
+            else:
+                description += f'{cont}. {c}\n'
+                cont += 1
+
         embed = discord.Embed(
             title = 'Minecraft Mods',
-            description = lerArquivo('mods.txt'),
+            description = description,
             colour = colour
         )
 
@@ -41,25 +53,46 @@ class Mods(commands.Cog):
         else:
             await ctx.channel.send('Não foi possível adicionar o mod.')
     
-    '''@commands.command(name = 'removeMod', help = 'Remove mod da lista de mod (não funciona muito bem)')
-    async def remove_mod(self, ctx, num):
-        if arquivoExiste('mods.txt'): #Verifica se o arquivo mods.txt existe
-            mods = lerArquivo('mods.txt') #Se existir lê o arquivo
-            mods = mods.split('\n') #Divide com linha
-            removido = mods[int(num) - 1]
-            del(mods[int(num) - 1]) #Remove item por número informado pelo usuário
-            
-            save = ''
-            for c in mods:
-                save += f'{c}\n' #Junta todos os mods pra salvar novamente sem o mod retirado
-            print(save)
+    @commands.command(name = 'removeMod', help = 'Remove um mod da lista de mods. !removeMod <nome> ou !removeMod <número do mod>')
+    async def remove_mod(self, ctx, *mod):
+        msg = ''
+        for c in mod: #Para cada item no objeto mod
+            msg += f' {c}' #Adicionarei o mesmo no objeto msg
+        msg.strip() #No final removerei os espaços do inicio e do final
 
-            criarArquivo('mods.txt')
-            escrever('mods.txt', save) #Salva sem o mod retirado
+        mods = lerArquivo('mods.txt') #Irei ler os mods registrados no arquivo mods.txt
+        mods = mods.split('\n') #Irei separar cada linha para facilitar a leitura
+        try: #Tentarei
+            msg = int(msg) #Transformar a variável msg de string para int
+        except: #Se não funcionar significa que é uma string
+            for c in range(0, len(mods)): #Usando a variável c começando do 0 até o tamanho da lista mods
+                if mods[c].lower().strip() == msg.lower().strip(): #Se o mod for igual ao mod solicitado pelo usuário
+                    remove = c #Anotarei o mesmo usando a variável remove
+                    return #E retornarei
+        else: #Se funcionar significa que é um número
+            for c in range(0, len(mods)): #Usando a variável c começando do 0 até o tamanho da lista mods
+                if c + 1 == msg: #Se a ordem do mod for igual ao número informado pelo usuário:
+                    remove = c #Anotarei o mesmo usando a variável remove
+                    return #E retornarei
+        finally: #Por último
+            try: #Tentarei
+                new_mods = ''
+                for c in mods: #Para cada item na variável mods
+                    if c == mods[remove]:
+                        name = mods[remove]
+                        continue
+                    else:
+                        if c == '': #Se for uma linha vazia
+                            continue #Irei ignora-lo
+                        else:
+                            new_mods += f'{c}\n' #Adicionarei o mesmo na variável new_mods
+                print('o')
+                criarArquivo('mods.txt') #Limparei o arquivo
+                escrever('mods.txt', new_mods) #Adicionarei a nova lista atualizada
 
-            await ctx.channel.send(f'Mod removido com sucesso ({removido.replace("- ", "")})')
-        else:
-            print('O arquivo não existe.')'''
+                await ctx.channel.send(f'O mod **{name}** foi removido com sucesso.') #Informarei ao usuário que a tarefa foi realizada com sucesso
+            except: #Se não conseguir
+                await ctx.channel.send(f'Não foi possível remover o mod {msg}.') #Infomarei ao usuário que eu não fui capaz de realizar a tarefa como solicitado
 
 
 def setup(bot):

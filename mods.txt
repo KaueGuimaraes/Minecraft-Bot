@@ -1,18 +1,18 @@
-- Blood Magic
-- Draconic Evolution
-- Ore Seeds
-- Chickens
-- Vatonage Magic
-- Survival Guns
-- Power Generators+
-- Tinkers' ReAwakening
-- More TNT
-- CustomEnchantments
-- Item Exchange Balanced
-- Ore Trees
-- Advanced Machinery
-- Baubles
-- Loots Bags
-- Android Infusion
-- Weapon Cases
-- Lucky Blocks
+Blood Magic
+Draconic Evolution
+Ore Seeds
+Chickens
+Vatonage Magic
+Survival Guns
+Power Generators+
+Tinkers' ReAwakening
+More TNT
+CustomEnchantments
+Item Exchange Balanced
+Ore Trees
+Advanced Machinery
+Baubles
+Loots Bags
+Android Infusion
+Weapon Cases
+Lucky Blocks

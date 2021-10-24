@@ -57,7 +57,7 @@ def cadastrarMod(arquivo, mod):
         print('\033[31mOcorreu um ao o tentar cadastrar o usuário!\033[m')
     else:
         try:
-            a.write(f'- {mod}\n')
+            a.write(f'{mod}\n')
         except:
             print('\033[31mOcorreu um erro ao tentar cadastrar o usuário!\033[m')
         else:

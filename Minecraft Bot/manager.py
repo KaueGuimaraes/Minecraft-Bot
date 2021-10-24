@@ -27,7 +27,9 @@ class Manager(commands.Cog):
         auto_delete_words = lerArquivo('auto_delete_words.txt').split('\n') #Leio as palavras banidas
 
         for word in auto_delete_words: #Para cada palavra nas palavras banidas
-            if word in message.content.lower(): #Se a palavra banida estiver na mensagem do usuário
+            if word.strip() == '': #Se a palavra for uma linha vazia
+                continue #Irei ignorar
+            elif word.strip().lower() in message.content.lower(): #Senão se a palavra banida estiver na mensagem do usuário
                 num = randint(0, len(auto_delete_phrases)) #irei pegar uma frase aleatória da lista auto_delete_phrases
 
                 await message.channel.send(auto_delete_phrases[num].replace('[name]', f'**{name}**')) #Irei avisa-lo para não usar esse tipo de palavreado
