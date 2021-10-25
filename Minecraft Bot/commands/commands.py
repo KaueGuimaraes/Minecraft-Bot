@@ -24,7 +24,7 @@ class Commands(commands.Cog):
 
         await ctx.channel.send(embed = embed)
     
-    @commands.command(name = 'guia', help = 'Mostra todos os objetivos do modpack Stone Block. !guia')
+    '''@commands.command(name = 'guia', help = 'Mostra todos os objetivos do modpack Stone Block. !guia')
     async def objetivos(self, ctx):
         if arquivoExiste('objetivos.txt'):
             msg = lerArquivo('objetivos.txt')
@@ -41,7 +41,20 @@ class Commands(commands.Cog):
             await ctx.channel.send(embed = embed)
         else:
             criarArquivo('objetivos.txt')
-            await ctx.channel.send('Tente novamente.')
+            await ctx.channel.send('Tente novamente.')'''
+    
+    @commands.command(name = 'guia', help = 'Mostra todos os objetivos do modpack Stone Block 2. !guia')
+    async def guia(self, ctx):
+        embed = discord.Embed(
+            title = 'Stone Block 2 Guia',
+            description = 'Acesse o site <site> e veja todos os objetivos do modpack Stone Block 2 em Português.',
+            colour = colour
+        )
+
+        embed.set_author(name = 'Minecraft Bot', icon_url = 'https://cdn.discordapp.com/avatars/900889967604158464/eda53038817044cf685215dde7cdff30.png?size=160')
+        embed.set_thumbnail(url = 'https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/50/Book_JE2_BE2.png/revision/latest?cb=20210427032255')
+
+        await ctx.channel.send(embed = embed)
     
     @commands.command(name = 'report', help = 'Envia uma mensagem privada para o desenvolvedor. Podendo ser utilizado tanto para enviar um feedback, reportar um errro ou só enviar algo para o desenvolvedor ler mesmo. !report <mensagem>')
     async def report(self, ctx, *report):
